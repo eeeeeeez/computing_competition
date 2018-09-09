@@ -54,18 +54,14 @@ public class CCC10j2 {
 		int bryonFinal = 0;
 		
 		if (nickyRemainder < a) {
-//			nickyFinal = nickyRemainder + cycleNet1;
 			cycleNet1 += nickyRemainder;
 		} else if (nickyRemainder > a) {
-//			nickyFinal = cycleNet1 - nickyRemainder + 2 * a;
 			cycleNet2 += 2 * a - nickyRemainder;
 		}
 
 		if (bryonRemainder < c) {
-//			bryonFinal = bryonRemainder + cycleNet2;
 			cycleNet2 += bryonRemainder;
 		}else if (bryonRemainder > c) {
-//			bryonFinal = cycleNet2 - bryonRemainder + 2 * c;
 			cycleNet2 += 2 * c - bryonRemainder;
 		}
 		
